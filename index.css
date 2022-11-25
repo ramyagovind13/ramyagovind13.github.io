@@ -1,4 +1,4 @@
-li {
+#navbarcollapse > li {
   display: flex;
 }
 
