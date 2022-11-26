@@ -22,6 +22,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts/index.js"></script>
   </head>
   <body>
     <div class="container">
@@ -71,11 +72,11 @@
         <div class="col-12 col-md-5">
           <img
             src="images/ramya.jpg"
-            class="img-fluid img-thumbnail"
+            class="img-fluid img-thumbnail photo"
             alt="Photo of Ramya Govindaraj"
           />
         </div>
-        <div class="col-12 col-md-7 mt-2">
+        <div class="col-12 col-md-7 mt-5">
           <h4>My name is Ramya Govindaraj</h4>
           <p class="mt-3 about-me fs-5 mt-5">
             I am currently pursuing my masters in Computer Science at Portland
@@ -173,47 +174,7 @@
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
-                <div>
-                  <h3>ACE-FMAT Publisher</h3>
-                </div>
-              </button>
-            </h2>
-            <div
-              id="collapseTwo"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingTwo"
-            >
-              <div class="accordion-body">
-                <img
-                  src="images/ace-publisher.jpg"
-                  alt="Logo of Ace-FMAT publisher project"
-                  class="img-thumbnail rounded mx-auto d-block"
-                />
-                <ul>
-                  <li>
-                    Implemented REST APIs and Airflow DAGs workflow that
-                    supports different policies activation, deletion and cleanup
-                    using Flask framework
-                  </li>
-                  <li>
-                    Designed and developed request queuing workflow to avoid
-                    congestion in processing large number of requests using
-                    scheduling algorithm
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
               <button
@@ -258,16 +219,57 @@
               </div>
             </div>
           </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                <div>
+                  <h3>ACE-FMAT Publisher</h3>
+                </div>
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+            >
+              <div class="accordion-body">
+                <img
+                  src="images/ace-publisher.jpg"
+                  alt="Logo of Ace-FMAT publisher project"
+                  class="img-thumbnail rounded mx-auto d-block"
+                />
+                <ul>
+                  <li>
+                    Implemented REST APIs and Airflow DAGs workflow that
+                    supports different policies activation, deletion and cleanup
+                    using Flask framework
+                  </li>
+                  <li>
+                    Designed and developed request queuing workflow to avoid
+                    congestion in processing large number of requests using
+                    scheduling algorithm
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="my-5" id="contact-form-section">
+      <div class="my-5 py-2" id="contact-form-section">
         <h1 class="text-center">Contact Me</h1>
         <form>
           <div class="row my-3 d-flex justify-content-center">
-            <label for="inputname" class="col-sm-2 col-md-2 col-form-label"
+            <label for="inputname" class="col-sm-2 col-md-1 col-form-label"
               >Name</label
             >
-            <div class="col-sm-10 col-md-4">
+            <div class="col-sm-10 col-md-5">
               <input
                 type="text"
                 class="form-control"
@@ -279,10 +281,10 @@
           <div class="row my-3 d-flex justify-content-center">
             <label
               for="inputemail"
-              class="col-sm-2 col-md-2 col-form-label font-weight-bold"
+              class="col-sm-2 col-md-1 col-form-label font-weight-bold"
               >Email</label
             >
-            <div class="col-sm-10 col-md-4">
+            <div class="col-sm-10 col-md-5">
               <input
                 type="email"
                 class="form-control"
@@ -294,10 +296,10 @@
           <div class="row my-3 d-flex justify-content-center">
             <label
               for="inputmessage"
-              class="col-sm-2 col-md-2 col-form-label font-weight-bold"
+              class="col-sm-2 col-md-1 col-form-label font-weight-bold"
               >Message</label
             >
-            <div class="col-sm-10 col-md-4">
+            <div class="col-sm-10 col-md-5">
               <textarea
                 class="form-control"
                 id="inputmessage"
@@ -341,6 +343,18 @@
           ></i
         ></a>
       </div>
+      <button
+        type="button"
+        id="goToTopBtn"
+        class="btn btn-primary float-end my-3"
+        onclick="scrollUp()"
+      >
+        <i
+          class="fa fa-arrow-circle-up"
+          style="font-size: 24px"
+          aria-hidden="true"
+        ></i>
+      </button>
     </div>
   </body>
 </html>
