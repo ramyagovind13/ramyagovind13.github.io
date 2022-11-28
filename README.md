@@ -1,5 +1,7 @@
 # ramyagovind13.github.io
 
+The website is deployed and live at https://ramyagovind13.github.io/
+
 Steps to run the code:
 
 1. Download the entire repository.
@@ -12,5 +14,3 @@ Project structure:
 - images/ - Contains images that are used in the portfolio webpage.
 - scipts/ - Contains JavaScript file that is used in portfolio webpage.
 - Styles/ - Contains CSS file that is used in portfolio webpage.
-
-THe website is deployed and live at https://ramyagovind13.github.io/
