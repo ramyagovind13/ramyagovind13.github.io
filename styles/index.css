@@ -2,10 +2,6 @@
   display: flex;
 }
 
-.about-me {
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
 #work-section > .col-12 {
   border: 1px solid rgba(39, 41, 43, 0.1);
 }
@@ -14,10 +10,18 @@
   background-color: #e7eaf6;
 }
 
+.about-me {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 .photo {
   border-radius: 50%;
 }
 
 .popimage:hover {
   transform: scale(1.1);
+}
+
+.accordion-item {
+  background-color: #e7eaf6;
 }

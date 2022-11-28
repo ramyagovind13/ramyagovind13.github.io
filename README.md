@@ -9,6 +9,6 @@ Steps to run the code:
 
 Project structure:
 
-images/ - Contains images that are used in the portfolio webpage.
-scipts/ - Contains JAvaScript file
-Styles/ - Contains CSS file
+- images/ - Contains images that are used in the portfolio webpage.
+- scipts/ - Contains JAvaScript file
+- Styles/ - Contains CSS file
